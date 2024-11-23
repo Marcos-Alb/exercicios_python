@@ -1,0 +1,17 @@
+#Exercício para saber a área de um triângulo
+'''oposto= float (input ('Digite um cateto '))
+adjacente= float (input ('Digite o outro cateto '))
+
+a= oposto**2
+b= adjacente**2
+h= (a + b)**(1/2)
+
+print ('O valor da hipotenusa é {:.2f}.'.format(h))'''
+#Também podemos fazer com a importação da biblioteca de math ou da função math.hypot
+import math #Ou from math import hypot 
+
+co= float (input ('Digite um cateto '))
+ca= float (input ('Digite o outro cateto '))
+h= math.hypot(co, ca) #Lembra que se a importação for apenas da hypot, temos que substituir
+#o math.hypot por apenas hypot
+print ('O valor da hipotenusa é: {:.2f}.'.format(h))

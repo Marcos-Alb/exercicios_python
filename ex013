@@ -1,0 +1,4 @@
+#Exercício para saber quanto alguem recebe após um aumento
+n= float (input ('Qual é o salário do funcionário? R$:'))
+
+print ('Um funcionário que ganha {:.2f}, com 15% de aumento, passa a receber {:.2f}'.format (n, n*1.15))

@@ -1,0 +1,4 @@
+#Exercício para mostrar o novo valor de um produto após certo desconto
+n= float (input ('Digite o valor do produto'))
+
+print ('O produto que custava R$: {:.2f}, na promoção com o desconto de 5% (Que equivale a: R$: {:.2f}) vai custar: R$:{:.2f}'.format(n, n*0.05, n*0.95))

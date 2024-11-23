@@ -1,0 +1,5 @@
+nome= input ('Qual o seu nome?')
+
+print('Olá,',nome,',seja muito bem vindo!') #Onde tem 'nome', a gente pode trocar por {} e no final colocarmos .format(nome) porque é onde ficará o que veio do teclado, nesse caso, o que o usuário digitou após 'Qual o seu nome?'
+
+print ('Olá, {}, seja muito bem vindo!'.format(nome)) #Como está escrito aqui!

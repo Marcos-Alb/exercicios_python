@@ -1,0 +1,6 @@
+#Exercicio para calcular o preço a pagar por um carro alugado que percorre x quilometros
+
+dias= int (input ('Digite quantos dias você está com o carro '))
+km= float (input ('Digite quantos km você andou '))
+
+print ('O valor a ser pago será: R$:{:.2f} referente a {} dias e {:.2f} quilometros percorridos.'.format(60*dias + 0.15*km, dias, km) )

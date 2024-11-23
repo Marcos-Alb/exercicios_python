@@ -1,0 +1,9 @@
+#Exercício para realizar soma e também saber utilizar os {} de maneira correta
+n1= float (input ('Digite um número'))
+n2= float (input ('Digite mais um número'))
+
+sum= (n1+n2) #Lembrar sempre de colocar o = (igual) porque o que sera apresentado é a função sum, que nesse caso representa n1 + n2. Portanto, sum RECEBE n1 + n2, ok??
+
+#Não fazer mais dessa forma print ('A soma entre', n1,'e', n2,'vale:', sum) Dessa maneira, o primeiro número será representado por strings em n1 e o outro número também por strings em n2. Sendo assim, independente do valor que coloquemos, será apresentado no final dessa forma: a soma entre N1 e N2 será:
+
+print ('A soma entre {} e {} vale {}'.format(n1, n2, sum))

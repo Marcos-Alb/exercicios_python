@@ -1,0 +1,17 @@
+#Exercício 
+from math import sin
+from math import cos
+from math import tan
+from math import radians
+#Poderiamos também importar toda biblioteca import math. Lembrando, também, de colocar 
+# o math na frente, assim: math.sin(radians(n))
+
+n= float (input('Digite um ângulo '))
+
+s= sin(radians(n))
+c= cos(radians(n))
+t= tan(radians(n))
+
+print('O seno desse ângulo é: {:.2f}'.format(s))
+print('O cosseno desse ângulo é: {:.2f}'.format(c))
+print('A tangente desse ângulo é:{:.2f}'.format(t))

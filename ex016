@@ -1,0 +1,9 @@
+#Exercício sobre pegar um número qualquer e mostrar sua parte inteira.
+'''from math import trunc #Como não precisamos de toda a biblioteca math, pode importar apenas o que queremos
+num= float (input ('Digite um número'))
+
+print ('O valor foi {} e a sua porção inteira é {}'.format(num, trunc(num)))'''
+#Também podemos fazer dessa maneira:
+
+num= float (input ('Digite um número'))
+print ('O valor digitado é {} e sua porção inteira é{}'.format(num, int))

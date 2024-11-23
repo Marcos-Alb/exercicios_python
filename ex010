@@ -1,0 +1,6 @@
+#Exercício pra converter real para dólar
+
+n= float (input('Quantos reais você tem na carteira? R$:'))
+
+print ('Com R$:{:.2f} você pode comprar {:.2f} dólares'.format(n, n/5.71))
+

@@ -1,0 +1,5 @@
+#Exercício para converter a temp de celsius par fahrenheit
+c= float (input ('Digite a temperatura em celsius ºC:'))
+
+
+print ('A temperatura de {:.2f} graus celsiu, em fahrenheit é:{:.2f}.'.format(c, (c/5)*9 + 32))
